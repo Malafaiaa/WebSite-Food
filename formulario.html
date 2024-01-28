@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icoweb.ico" type="image/x-icon">
+    <title>Cadastro Cliente</title>
+    <link rel="stylesheet" href="/css/formulario.css">
+</head>
+<body>
+
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+
+        <label for="confirmarSenha">Confirmar Senha:</label>
+        <input type="password" id="confirmarSenha" name="confirmarSenha" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" required>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outros">Outros</option>
+        </select>
+
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input type="date" id="data_nascimento" name="data_nascimento" required>
+
+        <label for="estado">Estado:</label>
+        <select id="estado" name="estado" required>
+            <option value="ac">AC</option>
+    <option value="al">AL</option>
+    <option value="ap">AP</option>
+    <option value="am">AM</option>
+    <option value="ba">BA</option>
+    <option value="ce">CE</option>
+    <option value="df">DF</option>
+    <option value="es">ES</option>
+    <option value="go">GO</option>
+    <option value="ma">MA</option>
+    <option value="mt">MT</option>
+    <option value="ms">MS</option>
+    <option value="mg">MG</option>
+    <option value="pa">PA</option>
+    <option value="pb">PB</option>
+    <option value="pr">PR</option>
+    <option value="pe">PE</option>
+    <option value="pi">PI</option>
+    <option value="rj">RJ</option>
+    <option value="rn">RN</option>
+    <option value="rs">RS</option>
+    <option value="ro">RO</option>
+    <option value="rr">RR</option>
+    <option value="sc">SC</option>
+    <option value="sp">SP</option>
+    <option value="se">SE</option>
+    <option value="to">TO</option>
+
+        </select>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" name="cep" required>
+
+        <label for="numero">Número:</label>
+        <input type="text" id="numero" name="numero" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <div class="loader-container2">
+        <img src="img/loader1.gif" alt="#">
+    </div>
+
+</footer>
+
+<script src="js/formulario.js"></script>
+
+</body>
+</html>

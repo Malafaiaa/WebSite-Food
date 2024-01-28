@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, #333333, #ffffff);
+}
+
+div {
+    background-color: #ffffff; /* branco */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    border-radius: 15px;
+    color: #333333; /* preto */
+    font-size: 15px;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: #eeeeee; /* cinza claro */
+    border-radius: 8px; /* border radius adicionado */
+    width: 100%; /* largura total */
+}
+
+button {
+    background-color: #ff6666; /* vermelho claro */
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3333; /* vermelho mais escuro */
+}
+
+#esqueci,
+#cadastro {
+    color: #ff3333; /* vermelho */
+    text-decoration: none; /* Remover sublinhado por padrão */
+}
+
+#esqueci:hover,
+#cadastro:hover {
+    text-decoration: underline; /* Adicionar sublinhado durante o hover */
+}
+
+.loader-container1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 10000;
+    background: #ffffff; /* branco */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.loader-container1.fade-out1 {
+    top: -120%;
+}
+
+/* Adicionando regras de mídia para tornar o layout responsivo */
+@media (max-width: 768px) {
+    div {
+        padding: 30px; /* Ajuste o preenchimento para tamanhos menores de tela */
+        font-size: 12px; /* Reduza o tamanho da fonte para tamanhos menores de tela */
+    }
+
+    input {
+        padding: 10px; /* Ajuste o preenchimento para tamanhos menores de tela */
+    }
+
+    button {
+        padding: 10px; /* Ajuste o preenchimento para tamanhos menores de tela */
+    }
+}
