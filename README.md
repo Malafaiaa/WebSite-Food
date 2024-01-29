@@ -10,7 +10,7 @@ O Foods M é um website de comida com um design atraente e funcionalidades centr
 - **Recuperação de Senha:** Fornece uma opção para os usuários recuperarem suas senhas esquecidas.
 
 ## Instalação
-Não é necessário instalar nada para acessar o Web Food. Basta visitar [aqui](#)  para explorar as deliciosas opções de comida disponíveis e desfrutar de uma experiência gastronômica online!
+Não é necessário instalar nada para acessar o Web Food. Basta visitar [aqui](https://malafaiaa.github.io/Landing-Page-GTA/)  para explorar as deliciosas opções de comida disponíveis e desfrutar de uma experiência gastronômica online!
 
 ## Tecnologias Utilizadas
 
