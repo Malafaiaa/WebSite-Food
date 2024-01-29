@@ -9,6 +9,9 @@ O Foods M é um website de comida com um design atraente e funcionalidades centr
 - **Tela de Registro:** Permite que novos usuários criem uma conta no sistema.
 - **Recuperação de Senha:** Fornece uma opção para os usuários recuperarem suas senhas esquecidas.
 
+## Instalação
+Não é necessário instalar nada para acessar o Web Food. Basta visitar aqui para explorar as deliciosas opções de comida disponíveis e desfrutar de uma experiência gastronômica online!
+
 ## Tecnologias Utilizadas
 
 - HTML5
@@ -17,8 +20,7 @@ O Foods M é um website de comida com um design atraente e funcionalidades centr
 - [Font Awesome](https://fontawesome.com/) - Ícones
 
 
-
-Explore as diferentes seções do website.
+## Explore as diferentes seções do website.
 
 Telas Principais
 Página Inicial:
@@ -33,7 +35,7 @@ Galeria:
 
 Avaliações:
 
-Contato
+## Contato
 Se tiver dúvidas, sugestões ou problemas, sinta-se à vontade para entrar em contato:
 
 Nome: Guilherme Malafaia de Sousa Silva
